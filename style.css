@@ -1,0 +1,181 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.gambar1 {
+  position: absolute;
+  width: 20%;
+  z-index: 1;
+}
+
+.gambar2 {
+  position: absolute;
+  width: 20%;
+  z-index: 2;
+}
+
+.gambar3 {
+  position: absolute;
+  width: 20%;
+  z-index: 3;
+}
+
+.gambar4 {
+  position: absolute;
+  width: 20%;
+  z-index: 4;
+}
+
+.gambar5 {
+  position: absolute;
+  width: 20%;
+  z-index: 5;
+}
+
+.gambar6 {
+  position: absolute;
+  width: 20%;
+  z-index: 6;
+}
+
+.gambar7 {
+  position: absolute;
+  width: 20%;
+  z-index: 7;
+  bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rf{
+    width: 30%;
+    /* height: 60vh; */
+    border-radius:400px;
+    transform: translateY(2.8rem);
+    cursor: pointer;
+}
+
+.rfcomh1{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(224, 15, 15);
+     transform: translateY(2.8rem);
+}
+
+P{
+  color: black; font-weight: 600; font-family: "Whisper", cursive;
+  font-size: 2rem;
+}
+
+
+
+
+.ibadahpuasa{
+     transform: translateY(4.8rem);
+     font-size: 2.5rem;
+     font-family: sans-serif;
+     color: rgb(235, 3, 49) ;
+    font-weight:bolder;
+    font-family:  "Pacifico", cursive;
+    z-index: 99999999;
+    font-weight: 400;
+}
+
+.audio{
+     transform: translateY(2rem);
+}
+
+.tambahan{
+         background: linear-gradient(1deg, rgb(19, 85, 46) 15%, rgb(17,17,80) 25%);
+        bottom: 0;
+        box-shadow: 21px 30px 31px 20px rgb(19, 85, 46) 15%;
+}
+
+.shadow{
+      box-shadow: 21px 30px 31px 20px rgb(17, 17, 80);
+       transform: translateY(-8px);
+      z-index: 1;
+}
+
+/* media querry css */
+
+/* mobile */
+
+@media screen and (max-width:320px)  {
+     .rf{
+      border-radius: 400px;
+      width: 80%;
+      height: 4500vh;
+    }  */
+
+    .rfcomh1{
+      font-size: 15px;
+    }
+}
+
+@media screen and (max-width:360px) {
+  .rf{
+    width:94%;
+    height:335px;
+    border-radius:400px;
+  }
+
+  .gambar3 {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.gambar4 {
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+}
+
+.gambar5 {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+.gambar6 {
+  position: absolute;
+  width: 100%;
+  z-index: 6;
+  transform: translateY(-2rem);
+}
+
+.gambar7 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  bottom: 40px;
+}
+  
+}
